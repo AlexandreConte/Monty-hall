@@ -1,0 +1,33 @@
+#game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.doors {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons button {
+  background-color: #373737;
+  color: #fff;
+  padding: 10px;
+  margin: 30px 0 30px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+  border: none;
+}
+
+.reset:hover {
+  background-color: #222222;
+}
